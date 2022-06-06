@@ -31,8 +31,10 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    libMegviiFacepp-0.5.2 \
-    libmegface
+    libMegviiFacepp-0.5.2
+
+PRODUCT_COPY_FILES += \
+    external/faceunlock/prebuilt/libs/arm64-v8a/libmegface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmegface.so
 
 # Motor
 PRODUCT_PACKAGES += \
