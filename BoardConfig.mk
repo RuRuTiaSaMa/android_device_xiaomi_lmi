@@ -20,6 +20,8 @@ TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_lmi
 
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/xiaomi/lmi.config
+TARGET_KERNEL_BUILD_HOST := EndeavourOS Cassini R2
+TARGET_KERNEL_BUILD_USER := "RuRuTiaSaMa"
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := lmi
