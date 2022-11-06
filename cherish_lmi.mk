@@ -42,3 +42,7 @@ TARGET_SUPPORTS_CALL_RECORDING := true
 # Maintainer Name
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.cherish.maintainer=RuRuTiaSaMa
+
+# Cpu Model
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.specs.cpu=Qualcomm® Snapdragon™ 865
