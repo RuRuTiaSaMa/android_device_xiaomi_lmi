@@ -21,3 +21,6 @@ ro.vendor.audio.soundtrigger=sva
 ro.vendor.audio.voice.volume.boost=none
 vendor.audio.mic.status=off
 vendor.audio.spkr_prot.tx.sampling_rate=48000
+
+# TouchFeature
+ro.vendor.touchfeature.type=2
