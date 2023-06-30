@@ -34,6 +34,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.motor@1.0.vendor
 
+# Camera Extensions
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.camerax.extensions.enabled=true
+
+# Camera Extensions permissions
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/permissions/camerax-vendor-extensions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/camerax-vendor-extensions.xml
+
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
