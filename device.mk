@@ -22,11 +22,6 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
-# Camera
-PRODUCT_PACKAGES += \
-    libMegviiFacepp-0.5.2 \
-    libmegface 
-
 # Camera motor
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.motor@1.0-service.xml
